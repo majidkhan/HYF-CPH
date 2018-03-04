@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Colors */ 
+body {
+}
+
+header {
+    background-color: red;
+    color: white;
+}
+
+aside {
+    background-color: green;
+    color: white;    
+}
+
+main {
+    background-color: blue;
+    color: white;    
+}
+
+footer {
+    background-color: yellow;
+    color: black;    
+}
+
+/* Layouts */
+
+aside{
+    width: 40%;
+}
+
+main {
+    width: 60%;
+}
+
+aside, main {
+    float: left;
+}
+
+header, aside, main, footer {
+    padding: 30px; 
+}
+
+footer {
+    clear: both;
+}
+
+@media screen and (max-width: 640px) {
+
+    header, aside, main, footer {
+        width: 100%;
+    }
+    
+}
