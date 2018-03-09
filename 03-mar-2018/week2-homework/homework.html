@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="mobile.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!--  Header Text -->
+            <div class="section">
+                <h1>Web Development as an Industry</h1>
+                <h3>An article about web development</h3>
+                <img class="mobile-view-logo" src="logoandslogan.jpg" alt="Web development as an industry" />
+            </div>
+
+            <!--  Site Navigation -->
+            <nav>
+                <ul class="row">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Our Office</a></li>
+                </ul>
+            </nav>
+
+            <!--  Header image -->
+            <div class="header-img">
+                <img class="mobile-view-header" alt="Header Image" src="https://www.trilux.com/fileadmin/Content/DE/Images/Anwendungen/Office/ATHENIK_Office_Slider.jpg" />
+            </div>        
+        </header>
+        <div class="row">
+            <aside>
+                <h4>Web Development as an Industry</h4>
+                <p>Examples of dramatic transformation in communication and commerce led by web development include e-commerce. Online auction sites such as eBay have changed the way consumers find and purchase goods and services. Online retailers such as Amazon.com and Buy.com (among many others) have transformed the shopping and bargain-hunting experience for many consumers.
+                </p>
+            </aside>
+            <main>
+                <h2>Practical Web Development</h2>
+                <p>
+                    Since the commercialization of the web, web development has been a growing industry. The growth of this industry is being driven by businesses wishing to use their website to sell products and services to customers.[1]
+                </p>
+                <p>
+                    There is open source software for web development like BerkeleyDB, GlassFish, LAMP (Linux, Apache, MySQL, PHP) stack and Perl/Plack. This has kept the cost of learning web development to a minimum. Another contributing factor to the growth of the industry has been the rise of easy-to-use WYSIWYG web-development software, such as Adobe Dreamweaver, BlueGriffon and Microsoft Visual Studio. Knowledge of HyperText Markup Language (HTML) or of programming languages is still required to use such software, but the basics can be learned and implemented quickly with the help of help files, technical books, internet tutorials, or face-to-face training.
+                </p>
+                <p>    
+                    An ever-growing set of tools and technologies have helped developers build more dynamic and interactive websites. Further, web developers now help to deliver applications as web services which were traditionally only available as applications on a desk-based computer. This has allowed for many opportunities to decentralize information and media distribution. Examples can be seen with the rise of cloud services such as Adobe Creative Cloud, Dropbox and Google Docs. These web services allow users to interact with applications from many locations, instead of being tied to a specific workstation for their application environment.                    
+                </p>
+            </main>
+        </div>
+        <div class="row">
+            <aside>
+                <h4>The Gallery</h4>
+                <p>Images to the right should be added as links. Each image should be responsive. 
+                </p>
+            </aside>
+            <div class="main-2">
+                <h2>Logo Types on the web</h2>
+                <div class="logotypes">
+                    <a class="logoitem" href="#"><i class="material-icons md-dark md-90">lightbulb_outline</i></a>
+                    <a class="logoitem" href="#"><i class="material-icons md-dark md-90">explore</i></a>
+                    <a class="logoitem" href="#"><i class="material-icons md-dark md-90">fingerprint</i></a>
+                    <a class="logoitem" href="#"><i class="material-icons md-dark md-90">motorcycle</i></a>
+                    <a class="logoitem" href="#"><i class="material-icons md-dark md-90">important_devices</i></a>
+                    <a class="logoitem" href="#"><i class="material-icons md-dark md-90">touch_app</i></a>
+                    <a class="logoitem" href="#"><i class="material-icons md-dark md-90">visibility</i></a>
+                    <a class="logoitem" href="#"><i class="material-icons md-dark md-90">airplay</i></a>
+                    <a class="logoitem" href="#"><i class="material-icons md-dark md-90">voicemail</i></a>
+                    <a class="logoitem" href="#"><i class="material-icons md-dark md-90">snooze</i></a>
+                    <a class="logoitem" href="#"><i class="material-icons md-dark md-90">web</i></a>
+                    <a class="logoitem" href="#"><i class="material-icons md-dark md-90">work</i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <footer>
+                <div class="findus">
+                    <h3>Find Us</h3>
+                    <div id="map"></div>
+                    <script>
+                        function initMap() {
+                            var hyfcph = {lat: 55.6618707, lng: 12.5407285};
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 18,
+                            center: hyfcph,
+                            mapTypeId: 'satellite'  
+                            });
+                            var marker = new google.maps.Marker({
+                            position: hyfcph,
+                            map: map
+                            });
+                        }
+                    </script>
+                    <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCayrmTE68gWVMHt_vLn3asE4gobeu-9Mk&callback=initMap">
+                    </script>
+                    <address>
+                        Enghavevej 80-82<br>
+                        Copenhagen SV<br>
+                        <span>Mo-Th:&nbsp;</span><time datetime="07:00:00">7am</time>- <time datetime="16:00:00">4pm</time><br>
+                        <span>Fr-Sat:&nbsp;</span><time datetime="09:00:00">9am</time>- <time datetime="20:00:00">8pm</time>
+                    </address>
+                </div>
+                <div class="about">
+                    <h3>About Us</h3>
+                    <p>In our 6-month program we train talented refugees with and without a coding background in modern JavaScript software development.</p>
+                </div>
+                <div class="archive">
+                    <h3>Archives</h3>
+                    <ul class="links-footer">
+                        <li><a href="#">March 2016</a></li>
+                        <li><a href="#">February 2016</a></li>
+                        <li><a href="#">January 2016</a></li>
+                    </ul>
+                </div>
+                <div class="navigation">
+                    <h3>Navigation</h3>
+                    <ul class="links-footer">
+                        <li><a href="#">HOme</a></li>
+                        <li><a href="#">About</a>
+                            <ul>
+                                <li><a href="#">History</a></li>
+                            </ul>    
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>                        
+                </div>
+            </footer>
+        </div>
+    </div>    
+</body>
+</html>
