@@ -1,4 +1,4 @@
-@media screen and (max-width: 440px) {
+@media all and (max-width: 800px) {
     body {
         font-size: 1.2em;
     }
@@ -9,7 +9,7 @@
         width: 100%;
     }
     .mobile-view-logo {
-        display: block;
+        display: none;
         min-width: 350px;
     }
     .mobile-view-header {
@@ -18,12 +18,12 @@
     header h1 {
         font-size: 1em;
         padding: 0 10px;
-        display: none;
+    /*    display: none; */
     }
     header h3 {
         font-size: 0.8em;
         padding: 0 10px;
-        display: none;
+    /*    display: none; */
     }
     ul.row {
         display: block;
