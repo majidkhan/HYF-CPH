@@ -3,6 +3,7 @@ body {
    font-weight: 300;
    padding:0;
    margin: 0;
+   background: url('../images/bg-sunsets-over-sea.jpg') no-repeat 0 0;
 }
 
 .outer-wrap {
@@ -29,10 +30,11 @@ ul.simple-tabs li {
     list-style-type: none;
     text-align: center;
     line-height:44px;
+    background-color: #e8e8e8;
 }
 
 ul.simple-tabs li:hover, ul.simple-tabs li:active {
-    background-color: #e8e8e8;
+    background-color: #f17200;
 }
 
 ul.simple-tabs li.active {
@@ -46,9 +48,13 @@ ul.simple-tabs li.active {
     width:100%;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: thin #000000 solid;
+    border: none;
     height:400px;
-    padding:5em 2em;
+    padding:2em 2em 5em 2em;
+    margin-top: 4em;
+    background-color: white;
+    opacity: 0.4;
+    
 }
 
 img {
@@ -58,4 +64,14 @@ img {
 .ninety-percent-pad {
     width:90%;
     margin:25px auto;
+}
+
+/* Form Style*/
+
+input {
+    background-color: white;
+    padding: 8px;
+    border-radius: 3px;
+    margin-bottom: 2em;
+    border: 1px solid grey;
 }

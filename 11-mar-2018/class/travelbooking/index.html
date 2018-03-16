@@ -21,18 +21,46 @@
             <li class="tab-four">Tab 4</li>
         </ul>
     
+        <!-- ####       Hotel Tab            ####-->
         <div id="tab-one" class="tab-page active-page">
-            I am the first tab
+            <form method="POST" action="#">
+                <input type="text" name="destination" id="destination" placeholder="Destination, City or Hotel">
+                <div style="display:flex">
+                    <div style="flex:50%">
+                        <label for="check-in">Check In</label>
+                        <input type="date" name="check-in" id="check-in" placeholder="date()" >
+                    </div>
+                    <div style="flex:50%">
+                        <label for="check-out">Check In</label>
+                        <input type="date" name="check-out" id="check-iout" placeholder="date()" >
+                    </div>                
+                </div>
+                <div style="display:flex">
+                    <div style="flex:33%">
+                        <label for="">Adults (18+)</label>  
+                    </div>
+                    <div style="flex:33%">
+                        <label for="">Children (0-17)</label>  
+                    </div>
+                    <div style="flex:33%">
+                        <label for="">Class</label>  
+                    </div>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
         </div>
         
+        <!-- ####       Flights Tab            ####-->
         <div id="tab-two" class="tab-page">
             I am the second tab
         </div>
         
+        <!-- ####       Cars Tab            ####-->
         <div id="tab-three" class="tab-page">
             I am the third tab
         </div>    
 
+        <!-- ####       Reservations Tab            ####-->
         <div id="tab-four" class="tab-page">
             I am the fourth tab
         </div>    
